@@ -1,1 +1,26 @@
-/* Write your code from here
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(248, 11, 78);
+}
+
+#quiz {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ddd;
+}
