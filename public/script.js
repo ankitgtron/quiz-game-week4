@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
         .catch(error => console.error("Error fetching questions:", error));
 
     function showQuestion() {
-        //100% khud nhi bnaya but 100% gpt se bhi nhi kiya 50-50
+        //100% khud nhi bnaya but 100% gpt se bhi nhi
         let quizContainer = document.getElementById("quiz");
         quizContainer.innerHTML = ""; // remove earlier response
 
